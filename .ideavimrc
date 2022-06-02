@@ -1,0 +1,23 @@
+nnoremap <Tab> :action ReformatCode<CR>
+
+nnoremap <Space>gd :action GotoDeclaration<CR>
+nnoremap <Space>gen :action GotoNextError<CR>
+nnoremap <Space>gep :action GotoPreviousError<CR>
+
+nnoremap <Space>bc :action ChooseRunConfiguration<CR>
+
+nnoremap <Space>ff :action GotoFile<CR>
+nnoremap <Space>fs :action SaveAll<CR>
+
+nnoremap <Space>mf :action FindUsages<CR>
+nnoremap <Space>mp :action ParameterInfo<CR>
+nnoremap <Space>mre :action RenameElement<CR>
+nnoremap <Space>mt :action ExpressionTypeInfo<CR>
+
+nnoremap <Space>th :action MoveEditorToOppositeTabGroup<CR>
+nnoremap <Space>tl :action MoveEditorToOppositeTabGroup<CR>
+nnoremap <Space>to :action OpenEditorInOppositeTabGroup<CR>
+nnoremap <Space>wd :action CloseEditor<CR>
+nnoremap <Space>wl :action NextSplitter<CR>
+nnoremap <Space>wh :action PrevSplitter<CR>
+nnoremap <Space>wv :action SplitVertically<CR>
